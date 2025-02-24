@@ -1,4 +1,4 @@
-import RAGInterface from '@/components/RAGInterface0';
+import RAGInterface from '@/components/RAGInterface';
 
 export default function Home() {
   return (
