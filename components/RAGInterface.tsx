@@ -7,8 +7,8 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 
-// const API_BASE_URL = "https://chatbot-gigh.onrender.com";
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://rag-chatbot-aicq.onrender.com";
+// const API_BASE_URL = "http://localhost:8000";
 
 
 const RAGInterface = () => {
