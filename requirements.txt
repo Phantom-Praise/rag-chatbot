@@ -12,3 +12,4 @@ fastembed
 chromadb
 python-multipart
 pymupdf
+PyPDF2
