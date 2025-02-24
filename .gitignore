@@ -47,3 +47,4 @@ next-env.d.ts
 /components/RAGInterface030(most_good).tsx
 /public 
 main1.py
+.gitignore
