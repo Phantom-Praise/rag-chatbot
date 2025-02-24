@@ -1,36 +1,28 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Demo
+
+
+
 ## Getting Started
-
-First, run the development server:
-
-```bash
+First, run the frontend server:
+python main.py or 
+uvicorn main:app
+run the backend server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+have funnnn and personalize the RAG Chatbot to thy needs or wants. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the frontend page by modifying `components/RAGInterface.tsx`
+You can start editing the backend page by modifying `main.py`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Credits and Inspiration 
 
-To learn more about Next.js, take a look at the following resources:
+"rag model langchain"
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+build a rag app using ollama and langchain : 
+https://github.com/hnawaz007/pythondataanalysis/blob/main/RAG%20App/RAG%20with%20PDF%20Document.ipynb 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+build and deploy a RAG Chatbot with JavaScript, LangChain.js, Next.js, Vercel, OpenAI
+https://www.youtube.com/watch?v=d-VKYF4Zow0&t=853s&ab_channel=freeCodeCamp.org 
