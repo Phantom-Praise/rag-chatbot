@@ -1,27 +1,37 @@
+🚀 Demo
 
-## Demo
+[Add a link to your live demo if available]
 
+🛠 Getting Started
 
+🔹 Running the Frontend
 
-## Getting Started
-First, run the frontend server:
-python main.py or 
-uvicorn main:app
-run the backend server:
+Start the frontend server with:
+
 npm run dev
-have funnnn and personalize the RAG Chatbot to thy needs or wants. 
 
+🔹 Running the Backend
 
-You can start editing the frontend page by modifying `components/RAGInterface.tsx`
-You can start editing the backend page by modifying `main.py`
+Start the backend server with:
 
+python main.py  
+or 
+uvicorn main:app
 
-## Credits and Inspiration 
+🎨 Customization
 
-"rag model langchain"
+Feel free to personalize and extend the RAG Chatbot to fit your needs!
 
-build a rag app using ollama and langchain : 
-https://github.com/hnawaz007/pythondataanalysis/blob/main/RAG%20App/RAG%20with%20PDF%20Document.ipynb 
+✏️ Modify the frontend by editing components/RAGInterface.tsx.
 
-build and deploy a RAG Chatbot with JavaScript, LangChain.js, Next.js, Vercel, OpenAI
-https://www.youtube.com/watch?v=d-VKYF4Zow0&t=853s&ab_channel=freeCodeCamp.org 
+🖥 Modify the backend by editing main.py.
+
+💡 Credits and Inspiration
+
+📚 Resources:
+
+📌 Building a RAG app with Ollama and LangChain
+🔗 [GitHub Repository ](https://github.com/hnawaz007/pythondataanalysis/blob/main/RAG%20App/RAG%20with%20PDF%20Document.ipynb )
+
+📌 Building and Deploying a RAG Chatbot with JavaScript, LangChain.js, Next.js, Vercel, and OpenAI
+🎥 [YouTube Tutorial ](https://www.youtube.com/watch?v=d-VKYF4Zow0&t=853s&ab_channel=freeCodeCamp.org )
