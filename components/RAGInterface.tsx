@@ -41,7 +41,6 @@ const RAGInterface = () => {
   // Completely replace the file handling approach
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
-      // Replace existing files with new selection
       setFiles(Array.from(e.target.files));
       setIsDataUploaded(false);
     }
@@ -91,9 +90,13 @@ const RAGInterface = () => {
       }
       
       setIsDataUploaded(true);
-    } catch (err: any) {
-      console.error('Upload error:', err);
-      setError(err.message || 'An unknown error occurred');
+    } catch (err) {
+      if (err instanceof Error) {
+        console.error('Upload error:', err);
+        setError(err.message);
+      } else {
+        setError('An unknown error occurred');
+      }
     } finally {
       setUploading(false);
     }
@@ -110,8 +113,13 @@ const RAGInterface = () => {
   
       const data = await response.json();
       setAnswer(data.answer);
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err) {
+      if (err instanceof Error) {
+        console.error('Query error:', err);
+        setError(err.message);
+      } else {
+        setError('An unknown error occurred');
+      }
     } finally {
       setQuerying(false);
     }
