@@ -20,6 +20,7 @@ from PyPDF2 import PdfReader
 app = FastAPI()
 origins = [
     "https://chatbot-seven-henna-82.vercel.app",
+    "https://rag-chatbot-drab.vercel.app/",
     "http://localhost:3000",
 ]
 

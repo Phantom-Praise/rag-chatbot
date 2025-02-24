@@ -74,7 +74,7 @@ const RAGInterface = () => {
       });
       
       // Log the entire FormData for debugging (this is limited but helps)
-      for (let [key, value] of formData.entries()) {
+      for (const [key, value] of formData.entries()) {
         console.log(`${key}: ${value instanceof File ? value.name : value}`);
       }
       
@@ -90,7 +90,7 @@ const RAGInterface = () => {
       }
       
       setIsDataUploaded(true);
-    } catch (err) {
+    } catch (err: unknown) {
       if (err instanceof Error) {
         console.error('Upload error:', err);
         setError(err.message);
@@ -113,7 +113,7 @@ const RAGInterface = () => {
   
       const data = await response.json();
       setAnswer(data.answer);
-    } catch (err) {
+    } catch (err:unknown) {
       if (err instanceof Error) {
         console.error('Query error:', err);
         setError(err.message);
