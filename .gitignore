@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#personal
+/components/RAGInterface0.tsx
+/components/RAGInterface1.tsx
+/components/RAGInterface2.tsx
+/components/RAGInterface030(most_good).tsx
+/public 
+main1.py
