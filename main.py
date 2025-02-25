@@ -19,8 +19,8 @@ from PyPDF2 import PdfReader
 
 app = FastAPI()
 origins = [
-    "https://rag-chatbot-drab.vercel.app",
-    "http://localhost:3000",
+    "https://rag-chatbot-drab.vercel.app/",
+    "http://localhost:3000/",
 ]
 
 app.add_middleware(
@@ -43,7 +43,7 @@ CHUNK_SIZE = 1024
 CHUNK_OVERLAP = 100
 RETRIEVAL_K = 3
 MODEL_NAME = "llama3:latest"
-MODEL_BASE_URL = "http://localhost:11434"
+MODEL_BASE_URL = "http://localhost:11435"
 
 embedding = FastEmbedEmbeddings()
 text_splitter = RecursiveCharacterTextSplitter(
