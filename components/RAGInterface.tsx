@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 
-const API_BASE_URL = "https://rag-chatbot-aicq.onrender.com";
+const API_BASE_URL = "https://rag-chatbot-fc9t.onrender.com"
 // const API_BASE_URL = "http://localhost:8000";
 
 
@@ -78,7 +78,7 @@ const RAGInterface = () => {
         console.log(`${key}: ${value instanceof File ? value.name : value}`);
       }
       
-      const response = await fetch('${API_BASE_URL}/aggregate_data', {
+      const response = await fetch(`${API_BASE_URL}/aggregate_data`, {
         method: 'POST',
         body: formData,
       });
