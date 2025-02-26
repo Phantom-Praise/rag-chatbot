@@ -1,34 +1,24 @@
-
-🚀 Demo
-
-[Add a link to your live demo if available]
-
 🛠 Getting Started
-
 🔹 Running the Frontend
-
 Start the frontend server with:
-
 npm run dev
 
 🔹 Running the Backend
-
 Start the backend server with:
-
 python main.py  
 or 
 uvicorn main:app
 
 🎨 Customization
-
 Feel free to personalize and extend the RAG Chatbot to fit your needs!
 
-✏️ Modify the frontend by editing components/RAGInterface.tsx.
+✏️ Modify the frontend by editing 
+components/RAGInterface.tsx.
 
-🖥 Modify the backend by editing main.py.
+🖥 Modify the backend by editing 
+main.py.
 
 💡 Credits and Inspiration
-
 📚 Resources:
 
 📌 Building a RAG app with Ollama and LangChain
@@ -36,3 +26,7 @@ Feel free to personalize and extend the RAG Chatbot to fit your needs!
 
 📌 Building and Deploying a RAG Chatbot with JavaScript, LangChain.js, Next.js, Vercel, and OpenAI
 🎥 [YouTube Tutorial ](https://www.youtube.com/watch?v=d-VKYF4Zow0&t=853s&ab_channel=freeCodeCamp.org )
+
+
+🚀 Demo
+[it's incomplete cause I didn't host the backend] (https://rag-chatbot-drab.vercel.app/)
