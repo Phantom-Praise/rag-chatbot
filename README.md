@@ -1,21 +1,22 @@
 🛠 Getting Started
 
-🔹 Running the Frontend
-
-Start the frontend server with npm run dev
-
 🔹 Running the Backend
 
 Start the backend server with: python main.py  or uvicorn main:app
 
-🎨 Customization
-Feel free to personalize and extend the RAG Chatbot to fit your needs!
+🔹 Running the Frontend
 
-✏️ Modify the frontend by editing 
-components/RAGInterface.tsx.
+Start the frontend server with npm run dev
+
+🎨 Customization
+
+Feel free to personalize and extend the RAG Chatbot to fit your needs!
 
 🖥 Modify the backend by editing 
 main.py.
+
+✏️ Modify the frontend by editing 
+components/RAGInterface.tsx.
 
 💡 Credits and Inspiration
 📚 Resources:
