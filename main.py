@@ -43,7 +43,7 @@ CHUNK_SIZE = 1024
 CHUNK_OVERLAP = 100
 RETRIEVAL_K = 3
 MODEL_NAME = "llama3:latest"
-MODEL_BASE_URL = "http://localhost:11435"
+MODEL_BASE_URL = "http://localhost:11434"
 
 embedding = FastEmbedEmbeddings()
 text_splitter = RecursiveCharacterTextSplitter(
@@ -172,4 +172,4 @@ def get_current_db():
     return {"current_db": "None"}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=9000)
